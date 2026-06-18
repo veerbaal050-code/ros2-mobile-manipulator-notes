@@ -79,7 +79,17 @@ ros2 service list -t
 ros2 action list -t
 ```
 
+![ROS 2 node list](../_static/media/chapter_1/section_1/image6.png)
+
 The reported node list includes control, state-publishing, filtering, sensor, and application components.
+
+![ROS 2 service list, part 1](../_static/media/chapter_1/section_1/image1.png)
+
+![ROS 2 service list, part 2](../_static/media/chapter_1/section_1/image2.png)
+
+![ROS 2 service list, part 3](../_static/media/chapter_1/section_1/image3.png)
+
+![ROS 2 service list, part 4](../_static/media/chapter_1/section_1/image4.png)
 
 For my project, the most relevant interfaces are the ones connected to chassis control, arm control, gripper control, sensors, navigation, and robot state.
 
@@ -104,6 +114,8 @@ The arm and gripper trajectory actions also appear in the action list:
 /arm_controller/follow_joint_trajectory
 /gripper_controller/follow_joint_trajectory
 ```
+
+![ROS 2 arm and gripper actions](../_static/media/chapter_1/section_1/image5.png)
 
 This interface coverage is broad enough for a custom external controller. It means the robot does not need to be controlled only through its default app workflow.
 
