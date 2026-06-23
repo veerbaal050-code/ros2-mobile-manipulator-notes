@@ -1,6 +1,6 @@
-# NoMachine Connected but Only Showed the Wallpaper on My ROSOrin Jetson Orin NX (8GB)
+# NoMachine Connected but Only Showed the Wallpaper on My ROSOrin
 
-I ran into a small but confusing remote desktop issue while setting up my **ROSOrin Jetson Orin NX (8GB)**.
+I ran into a small but confusing remote desktop issue while setting up my **ROSOrin**.
 
 I installed NoMachine on my Windows PC, followed the normal login steps, and the connection itself worked. The problem was that the remote desktop did not really appear. NoMachine opened a session, but I could only see the Ubuntu wallpaper. There were no desktop icons, no top bar, no dock, and no usable Linux desktop environment.
 
@@ -48,6 +48,6 @@ The practical fix was:
 
 The important lesson is that a successful NoMachine connection does not always mean the remote desktop display is configured correctly.
 
-If NoMachine connects to a ROSOrin Jetson Orin NX system but only shows the wallpaper, I would not spend too much time changing resolution settings first. I would check whether the HDMI/DP dummy display adapter is installed on the Jetson video output port.
+If NoMachine connects to a ROSOrin system but only shows the wallpaper, I would not spend too much time changing resolution settings first. I would check whether the HDMI/DP dummy display adapter is installed on the Jetson video output port.
 
 For headless robotics setups, that small adapter can be the difference between a remote session that technically connects and a remote session that actually shows a usable Ubuntu desktop.
