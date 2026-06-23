@@ -1,4 +1,4 @@
-# Pre-Purchase Notes: Evaluating a ROS 2 Mobile Manipulator for Custom Embodied AI Research
+# Pre-Purchase Notes: Evaluating ROSOrin Pro, a ROS 2 Mobile Manipulator for Custom Embodied AI Research
 
 I have been looking into ROS 2 mobile manipulators for a small embodied AI research setup. My goal was not to buy a robot that only runs prebuilt education demos. I wanted a platform where I could insert my own control layer between perception, decision-making, and physical execution.
 

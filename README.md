@@ -4,7 +4,7 @@ This repository collects technical notes on evaluating ROS 2 mobile manipulators
 
 ## Articles
 
-- [Pre-Purchase Notes: Evaluating a ROS 2 Mobile Manipulator for Custom Embodied AI Research](posts/pre-purchase-notes-ros2-mobile-manipulator.md)
+- [Pre-Purchase Notes: Evaluating ROSOrin Pro, a ROS 2 Mobile Manipulator for Custom Embodied AI Research](posts/pre-purchase-notes-ros2-mobile-manipulator.md)
 
 ## Focus Areas
 
